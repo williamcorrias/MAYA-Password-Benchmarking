@@ -1,0 +1,14 @@
+data:
+  char_bag: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `\n"
+
+train:
+  batch_size: 128
+  dense_hidden_size: 512
+  epochs: 20
+  lstm_hidden_size: 1000
+
+eval:
+  save_guesses: on
+  save_matches: on
+  checkpoint_frequency: 1
+  chunk_size_guesser: 1000

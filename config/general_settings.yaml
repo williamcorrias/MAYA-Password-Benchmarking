@@ -1,0 +1,26 @@
+general_params:
+    autoload: 1
+    models:
+    test_config:
+      - config/test/test_chunked_data_training.yaml
+    n_samples:
+      - 500000000
+
+pre_split_params:
+    max_length:
+      - 12
+    char_bag:
+      - "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `"
+    train_datasets:
+      - libero
+
+split_params:
+    train_split_percentage:
+      - 80
+
+post_split_params:
+    train_chunk_percentage:
+      - 100
+
+test_params:
+

@@ -1,0 +1,22 @@
+datasets_folder: datasets
+train_and_test_folder: data/splitted
+
+choose_by_names:
+  enabled: on
+  names:
+    - libero
+
+choose_by_categories:
+  enabled: off
+
+  # choose among: en (english), it (italian), ru (russian), and zh (chinese).
+  languages:
+    - it
+  # choose among: dating-sites, e-commerce, forum, gaming, mail, social-net, web-portal
+  services:
+    - mail
+
+
+
+
+

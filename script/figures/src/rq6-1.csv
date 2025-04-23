@@ -1,0 +1,121 @@
+Dataset,Combo,Jaccard,Intersect,Union
+RockYou,fla_passflow,0.0456,41614496,912543090
+RockYou,fla_passgan,0.0343,25100873,731549379
+RockYou,fla_passgpt,0.1469,110315752,751130936
+RockYou,fla_plr-gan,0.0555,46247203,833947846
+RockYou,fla_vgpt2,0.0389,36296712,932532236
+RockYou,passflow_passgan,0.0165,11532920,699397323
+RockYou,passflow_passgpt,0.0231,18433759,797292920
+RockYou,passflow_plr-gan,0.0228,18640942,815834098
+RockYou,passflow_vgpt2,0.0294,26391880,896717059
+RockYou,passgan_passgpt,0.0189,11487040,606732304
+RockYou,passgan_plr-gan,0.0185,11546247,625421458
+RockYou,passgan_vgpt2,0.0142,10158900,715442704
+RockYou,passgpt_plr-gan,0.0282,20345789,721418352
+RockYou,passgpt_vgpt2,0.0206,16727386,813670654
+RockYou,plr-gan_vgpt2,0.0202,16811704,832334698
+000webhost,fla_passflow,0.0126,12197881,968862939
+000webhost,fla_passgan,0.0135,11660758,861586396
+000webhost,fla_passgpt,0.0687,60593350,881620303
+000webhost,fla_plr-gan,0.0237,22316118,943495810
+000webhost,fla_vgpt2,0.0098,9659968,987452655
+000webhost,passflow_passgan,0.0032,2759581,851606431
+000webhost,passflow_passgpt,0.0037,3359717,919972794
+000webhost,passflow_plr-gan,0.0056,5297595,941633191
+000webhost,passflow_vgpt2,0.0034,3306650,974924831
+000webhost,passgan_passgpt,0.0039,3173830,812345015
+000webhost,passgan_plr-gan,0.0054,4543166,834573954
+000webhost,passgan_vgpt2,0.0027,2318268,868099547
+000webhost,passgpt_plr-gan,0.0070,6347676,901735943
+000webhost,passgpt_vgpt2,0.0030,2791526,936592788
+000webhost,plr-gan_vgpt2,0.0040,3790294,959192295
+Ashley Madison,fla_passflow,0.0219,20371581,931101315
+Ashley Madison,fla_passgan,0.0348,24603364,706330576
+Ashley Madison,fla_passgpt,0.0924,67072793,725547950
+Ashley Madison,fla_plr-gan,0.0333,23811784,714413237
+Ashley Madison,fla_vgpt2,0.0006,510741,855546284
+Ashley Madison,passflow_passgan,0.0078,5299407,677111280
+Ashley Madison,passflow_passgpt,0.0115,8437036,735660454
+Ashley Madison,passflow_plr-gan,0.0079,5429832,684271936
+Ashley Madison,passflow_vgpt2,0.0000,22799,807510973
+Ashley Madison,passgan_passgpt,0.0273,13899105,509659428
+Ashley Madison,passgan_plr-gan,0.0177,8175544,460987267
+Ashley Madison,passgan_vgpt2,0.0002,134394,586860421
+Ashley Madison,passgpt_plr-gan,0.0257,13295483,517554131
+Ashley Madison,passgpt_vgpt2,0.0004,277915,648403703
+Ashley Madison,plr-gan_vgpt2,0.0002,127049,594158848
+Gmail,fla_passflow,0.0231,21255221,918164882
+Gmail,fla_passgan,0.0273,19899411,729373076
+Gmail,fla_passgpt,0.1027,79768287,777019744
+Gmail,fla_plr-gan,0.0374,31137918,831566860
+Gmail,fla_vgpt2,0.0266,25308106,950087789
+Gmail,passflow_passgan,0.0112,7649008,681062108
+Gmail,passflow_passgpt,0.0110,8641397,787585263
+Gmail,passflow_plr-gan,0.0111,8801431,793341976
+Gmail,passflow_vgpt2,0.0162,14611811,900222713
+Gmail,passgan_passgpt,0.0136,8159135,597919909
+Gmail,passgan_plr-gan,0.0128,7757352,604238439
+Gmail,passgan_vgpt2,0.0101,7247975,717438933
+Gmail,passgpt_plr-gan,0.0183,12944314,706567021
+Gmail,passgpt_vgpt2,0.0125,10284330,821918122
+Gmail,plr-gan_vgpt2,0.0122,10101089,828018110
+Libero,fla_passflow,0.0054,5243857,977737630
+Libero,fla_passgan,0.0208,14393078,693237878
+Libero,fla_passgpt,0.0570,44150185,774837348
+Libero,fla_plr-gan,0.0222,16289214,732581915
+Libero,fla_vgpt2,0.0001,116689,919651837
+Libero,passflow_passgan,0.0022,1517157,688832857
+Libero,passflow_passgpt,0.0029,2324649,799381942
+Libero,passflow_plr-gan,0.0025,1793725,729796462
+Libero,passflow_vgpt2,0.0000,3049,902484535
+Libero,passgan_passgpt,0.0161,8333182,518022877
+Libero,passgan_plr-gan,0.0116,5218784,451020871
+Libero,passgan_vgpt2,0.0000,30137,627106915
+Libero,passgpt_plr-gan,0.0169,9439351,558156881
+Libero,passgpt_vgpt2,0.0001,63815,738429814
+Libero,plr-gan_vgpt2,0.0001,37658,668339567
+LinkedIn,fla_passflow,0.0211,20157039,955245244
+LinkedIn,fla_passgan,0.0267,21585259,807004169
+LinkedIn,fla_passgpt,0.1164,94213080,809731170
+LinkedIn,fla_plr-gan,0.0514,46225296,899536278
+LinkedIn,fla_vgpt2,0.0326,31106968,955094253
+LinkedIn,passflow_passgan,0.0055,4359465,799646793
+LinkedIn,passflow_passgpt,0.0085,7370754,871990326
+LinkedIn,passflow_plr-gan,0.0089,8131257,913047147
+LinkedIn,passflow_vgpt2,0.0103,9794081,951823970
+LinkedIn,passgan_passgpt,0.0109,7866290,724681935
+LinkedIn,passgan_plr-gan,0.0112,8569859,765795690
+LinkedIn,passgan_vgpt2,0.0074,5946014,808859182
+LinkedIn,passgpt_plr-gan,0.0204,16993557,832726813
+LinkedIn,passgpt_vgpt2,0.0137,12047398,878112619
+LinkedIn,plr-gan_vgpt2,0.0135,12430801,919546541
+Mailru,fla_passflow,0.0442,39639462,895841729
+Mailru,fla_passgan,0.0239,17921164,751287432
+Mailru,fla_passgpt,0.0943,74125274,786349931
+Mailru,fla_plr-gan,0.0295,24073664,816877952
+Mailru,fla_vgpt2,0.0214,20545385,960556551
+Mailru,passflow_passgan,0.0131,8964670,683280431
+Mailru,passflow_passgpt,0.0205,15741686,767770024
+Mailru,passflow_plr-gan,0.0153,11496584,752491537
+Mailru,passflow_vgpt2,0.0137,12234402,891904039
+Mailru,passgan_passgpt,0.0123,7496311,609742804
+Mailru,passgan_plr-gan,0.0099,5858697,591856829
+Mailru,passgan_vgpt2,0.0067,4914795,732951051
+Mailru,passgpt_plr-gan,0.0155,10518768,678463367
+Mailru,passgpt_vgpt2,0.0100,8226236,820906219
+Mailru,plr-gan_vgpt2,0.0076,6095699,803513168
+Taobao,fla_passflow,0.0986,82384933,835898018
+Taobao,fla_passgan,0.0499,38113537,764452447
+Taobao,fla_passgpt,0.1240,102267377,824874679
+Taobao,fla_plr-gan,0.0552,46947654,850232956
+Taobao,fla_vgpt2,0.0339,33040082,973330292
+Taobao,passflow_passgan,0.0360,23097090,641623269
+Taobao,passflow_passgpt,0.0366,27856256,761440175
+Taobao,passflow_plr-gan,0.0336,24715532,734619453
+Taobao,passflow_vgpt2,0.0255,21586294,846938455
+Taobao,passgan_passgpt,0.0230,15135882,658443583
+Taobao,passgan_plr-gan,0.0213,13407222,630210797
+Taobao,passgan_vgpt2,0.0144,10719463,742088320
+Taobao,passgpt_plr-gan,0.0266,19878976,748315114
+Taobao,passgpt_vgpt2,0.0160,13777751,863606103
+Taobao,plr-gan_vgpt2,0.0146,12156793,835265615
