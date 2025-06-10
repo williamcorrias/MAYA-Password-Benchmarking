@@ -1,0 +1,50 @@
+rq2: #Are Generative Models Truly Better Than Traditional Tools?
+    evaluation_script: script/metrics/others/comparision_traditional_tools.py
+    figure_script: script/plotters/rq2.py
+
+    display_logs: 0
+
+    test: rq1
+
+    models:
+      - passgan
+      - plrgan
+      - passflow
+      - passgpt
+      - vgpt2
+      - fla
+
+    train_datasets:
+      - rockyou
+      - linkedin
+      - 000webhost
+      - gmail
+      - libero
+      - ashleymadison
+      - taobao
+      - mailru
+
+    char_bag:
+      - "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `"
+
+    max_length:
+      - 12
+
+    train_chunk_percentage:
+      - 100
+
+    train_split_percentage:
+      - 80
+
+    n_samples:
+      - 1000000
+      - 2500000
+      - 5000000
+      - 7500000
+      - 10000000
+      - 25000000
+      - 50000000
+      - 75000000
+      - 100000000
+      - 250000000
+      - 500000000

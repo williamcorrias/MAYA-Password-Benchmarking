@@ -1,0 +1,15 @@
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{fla} & \multicolumn{3}{c|}{passflow} & \multicolumn{3}{c|}{passgan} & \multicolumn{3}{c|}{passgpt} & \multicolumn{3}{c|}{plrgan} & \multicolumn{3}{c|}{vgpt2} \\
+\cline{2-19}
+Train / Test & 000webhost & linkedin & rockyou & 000webhost & linkedin & rockyou & 000webhost & linkedin & rockyou & 000webhost & linkedin & rockyou & 000webhost & linkedin & rockyou & 000webhost & linkedin & rockyou \\
+\hline
+000webhost & 31.33\% & 22.81\% & 26.72\% & 2.74\% & 6.58\% & 11.44\% & 2.66\% & 2.27\% & 4.10\% & 20.25\% & 10.41\% & 13.77\% & 5.23\% & 3.70\% & 5.56\% & 2.59\% & 1.87\% & 3.15\% \\
+\hline
+linkedin & 19.01\% & 36.38\% & 45.09\% & 1.93\% & 7.10\% & 6.61\% & 1.80\% & 4.03\% & 6.51\% & 16.90\% & 28.58\% & 36.21\% & 3.65\% & 8.44\% & 8.77\% & 2.95\% & 6.56\% & 11.48\% \\
+\hline
+rockyou & 17.31\% & 31.53\% & 60.47\% & 3.55\% & 8.16\% & 18.48\% & 1.59\% & 4.72\% & 12.41\% & 13.15\% & 22.08\% & 48.86\% & 4.65\% & 8.77\% & 19.67\% & 2.84\% & 6.93\% & 17.91\% \\
+\hline
+\end{tabular}
+
+

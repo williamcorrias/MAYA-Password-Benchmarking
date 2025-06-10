@@ -1,0 +1,16 @@
+train:
+  batch_size: 512
+  epochs: 200
+  hidden_size: 256
+  learning_rate: 0.001
+  n_hidden: 2
+  num_coupling: 18
+  mask_pattern: None
+  noise: 0.1
+  weight_decay: 0.00005
+
+eval:
+  checkpoint_frequency: 1
+  evaluation_batch_size: 10000
+  save_guesses: on
+  save_matches: on

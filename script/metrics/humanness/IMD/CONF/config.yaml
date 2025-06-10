@@ -1,0 +1,7 @@
+data:
+    char_bag: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `\n"
+    max_length: 12
+
+test:
+    batch_size: 500000
+    runs: 1

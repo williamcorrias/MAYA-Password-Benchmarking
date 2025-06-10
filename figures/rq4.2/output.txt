@@ -1,0 +1,15 @@
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{fla} & \multicolumn{3}{c|}{passflow} & \multicolumn{3}{c|}{passgan} & \multicolumn{3}{c|}{passgpt} & \multicolumn{3}{c|}{plrgan} & \multicolumn{3}{c|}{vgpt2} \\
+\cline{2-19}
+Train / Test & mailru & rockyou & taobao & mailru & rockyou & taobao & mailru & rockyou & taobao & mailru & rockyou & taobao & mailru & rockyou & taobao & mailru & rockyou & taobao \\
+\hline
+mailru & 54.95\% & 26.98\% & 16.36\% & 23.37\% & 16.35\% & 13.25\% & 16.29\% & 7.39\% & 4.72\% & 40.36\% & 15.82\% & 10.74\% & 21.32\% & 10.78\% & 7.11\% & 16.90\% & 6.89\% & 4.11\% \\
+\hline
+rockyou & 30.10\% & 60.47\% & 18.71\% & 14.86\% & 18.48\% & 9.83\% & 8.43\% & 12.41\% & 5.57\% & 22.30\% & 48.86\% & 13.65\% & 13.22\% & 19.67\% & 9.10\% & 11.40\% & 17.91\% & 6.52\% \\
+\hline
+taobao & 20.94\% & 23.77\% & 45.54\% & 20.20\% & 19.55\% & 18.68\% & 7.39\% & 6.41\% & 12.16\% & 13.61\% & 13.26\% & 30.80\% & 10.11\% & 9.37\% & 16.84\% & 8.16\% & 7.74\% & 12.57\% \\
+\hline
+\end{tabular}
+
+

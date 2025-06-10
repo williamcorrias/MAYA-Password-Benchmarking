@@ -1,0 +1,62 @@
+rq1: #How Do Different Settings Influence Models Performance?
+    figure_script: script/plotters/rq1.py
+
+    general_params:
+
+        autoload: 1
+
+        models:
+          - passgan
+          - plrgan
+          - passflow
+          - passgpt
+          - vgpt2
+          - fla
+
+        n_samples:
+          - 1000000
+          - 2500000
+          - 5000000
+          - 7500000
+          - 10000000
+          - 25000000
+          - 50000000
+          - 75000000
+          - 100000000
+          - 250000000
+          - 500000000
+
+    pre_split_params:
+
+        standard_preprocessing.read_train_passwords:
+            train_datasets:
+              - rockyou
+              - 000webhost
+              - linkedin
+              - mailru
+              - libero
+              - ashleymadison
+              - taobao
+              - gmail
+
+        standard_preprocessing.filter_by_length:
+            max_length:
+              - 8
+              - 10
+              - 12
+
+        standard_preprocessing.filter_by_char_bag:
+            char_bag:
+              - "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `"
+
+    split_params:
+
+        standard_preprocessing.test_centric_split:
+            train_split_percentage:
+              - 80
+
+    post_split_params:
+
+        standard_preprocessing.chunk_train_dataset:
+            train_chunk_percentage:
+              - 100

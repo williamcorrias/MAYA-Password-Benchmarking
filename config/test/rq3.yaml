@@ -1,0 +1,52 @@
+rq3: #How and to What Extent Does the Size of the Training Dataset Affect Model Performance?
+    figure_script: script/plotters/rq3.py
+
+    general_params:
+
+        autoload: 1
+
+        models:
+          - passgan
+          - plrgan
+          - passflow
+          - passgpt
+          - vgpt2
+          - fla
+
+        n_samples:
+          - 500000000
+
+    pre_split_params:
+
+        standard_preprocessing.read_train_passwords:
+            train_datasets:
+              - rockyou
+              - linkedin
+              - mailru
+              - taobao
+
+        standard_preprocessing.filter_by_length:
+            max_length:
+              - 12
+
+        standard_preprocessing.filter_by_char_bag:
+            char_bag:
+              - "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `"
+
+    split_params:
+
+        standard_preprocessing.test_centric_split:
+            train_split_percentage:
+              - 80
+
+    post_split_params:
+
+        standard_preprocessing.chunk_train_dataset:
+            train_chunk_percentage:
+              - 850000
+              - 1785681
+              - 2700000
+              - 4710736
+              - 11802325
+              - 20000000
+              - 40000000

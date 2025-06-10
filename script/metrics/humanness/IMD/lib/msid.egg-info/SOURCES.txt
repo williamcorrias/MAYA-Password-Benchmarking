@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+msid/__init__.py
+msid/laplacian.py
+msid/msid.py
+msid/slq.py
+msid.egg-info/PKG-INFO
+msid.egg-info/SOURCES.txt
+msid.egg-info/dependency_links.txt
+msid.egg-info/requires.txt
+msid.egg-info/top_level.txt
