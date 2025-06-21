@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: msid
+Version: 0.0.0
+Author: Anton Tsitsulin
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy

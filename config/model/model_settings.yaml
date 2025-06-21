@@ -1,0 +1,35 @@
+passflow:
+  class_name: PassFlow
+  path_to_class: models.passflow.passflow
+  path_to_config: ./models/passflow/CONF/config.yaml
+
+  sampling_args:
+    gs: True
+
+plrgan:
+  class_name: PLRGAN
+  path_to_class: models.PLRGAN.PLRGAN
+  path_to_config: ./models/PLRGAN/CONF/config.yaml
+
+  sampling_args:
+    ds: True
+
+passgan:
+  class_name: PassGAN
+  path_to_class: models.PassGAN.PassGAN
+  path_to_config: ./models/PassGAN/CONF/config.yaml
+
+passgpt:
+  class_name: PassGPT
+  path_to_class: models.PassGPT.PassGPT
+  path_to_config: ./models/PassGPT/CONF/config.yaml
+
+vgpt2:
+  class_name: VGPT2
+  path_to_class: models.VGPT2.VGPT2
+  path_to_config: ./models/VGPT2/CONF/config.yaml
+
+fla:
+  class_name: FLA
+  path_to_class: models.FLA.FLA
+  path_to_config: ./models/FLA/CONF/config.yaml

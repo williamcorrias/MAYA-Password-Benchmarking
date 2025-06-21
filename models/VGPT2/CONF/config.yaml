@@ -1,0 +1,32 @@
+dataloader:
+  batch_size: 128
+
+model:
+  latent_dim: 256
+  embedding_dim: 256
+  min_logvar: -20
+
+  encoder:
+    n_head: 4
+    n_layer: 4
+
+  decoder:
+    n_head: 4
+    n_layer: 4
+
+  parameter_schedulers:
+    learning_rate: 1.0
+    gamma: 0.25
+    step_size: 1
+    max_value: 1.0
+    max_steps: 12500
+    decay_rate: 0.025
+
+train:
+  batch_size: 128
+  epochs: 20
+
+eval:
+  checkpoint_frequency: 1
+  evaluation_batch_size: 1024
+

@@ -1,0 +1,29 @@
+# Execution-wide parameters
+config:
+    tokenizer_path: tokenizer/
+    seed: 14
+
+# Details for model architecture. Set parameters directly for GPT2Config (https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2Config)
+model_args:
+    n_head: 12
+    n_layer: 8
+
+# Set parameters directly for TrainingArguments (https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments)
+train:
+    per_device_train_batch_size: 2048
+    gradient_accumulation_steps: 1
+    logging_steps: 250
+    save_total_limit: 1
+    num_train_epochs: 3
+    overwrite_output_dir: true
+    fp16: false
+    save_steps: 50000
+
+eval:
+    evaluation_batch_size: 1000
+    device: cuda
+    num_beams: 1
+    temperature: 1.0
+    top_p: 100
+    top_k: null
+    seed: 0

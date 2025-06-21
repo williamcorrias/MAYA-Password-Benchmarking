@@ -1,0 +1,56 @@
+rq5.1: #Are Models Limited to Guessing Only Common Passwords?
+    figure_script: script/plotters/rq5.1.py
+
+    general_params:
+
+        autoload: 1
+
+        models:
+          - passgan
+          - plrgan
+          - passflow
+          - passgpt
+          - vgpt2
+          - fla
+
+        n_samples:
+          - 500000000
+
+    pre_split_params:
+
+        standard_preprocessing.read_train_passwords:
+            train_datasets:
+              - rockyou
+              - 000webhost
+              - mailru
+              - libero
+              - taobao
+              - gmail
+
+        standard_preprocessing.filter_by_length:
+            max_length:
+              - 12
+
+        standard_preprocessing.filter_by_char_bag:
+            char_bag:
+              - "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*(),.<>/?'\"{}[]\\|-_=+;: `"
+
+    split_params:
+
+        standard_preprocessing.test_centric_split:
+            train_split_percentage:
+              - 80
+
+    post_split_params:
+
+        standard_preprocessing.chunk_train_dataset:
+          train_chunk_percentage:
+            - 100
+
+    test_params:
+
+        standard_preprocessing.filter_by_frequency:
+            test_frequency:
+              - 5
+              - 10
+              - -90

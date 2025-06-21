@@ -1,0 +1,18 @@
+train:
+  z_size: 128
+  z_prior: 1.0
+  x_size: 10
+  lambda: 10
+  learning_rate: 0.0001
+  beta1: 0.5
+  beta2:  0.9
+  D_iters:  10
+  batch_size:  64
+  num_gen_training_steps: 400000
+  gamma: 0.01
+
+eval:
+  alpha: 0.10
+  sigma: 0.35
+  checkpoint_frequency: 10000
+  evaluation_batch_size: 2048
