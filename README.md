@@ -24,7 +24,31 @@ This repository contains the official implementation of the paper [*MAYA: Addres
 
 ## Overview
 
-MAYA is a unified, customizable, plug-and-play benchmarking framework designed to facilitate the systematic characterization and benchmarking of generative password-guessing models in the context of trawling attacks. 
+MAYA is a unified, customizable, plug-and-play benchmarking framework designed to facilitate the systematic characterization and benchmarking of generative password-guessing models in the context of trawling attacks.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Pre-Requisites](#pre-requisites)
+  - [Dependencies](#dependencies)
+  - [Reproducing Our Environment](#reproducing-our-environment)
+  - [Datasets](#datasets)
+    - [Downloading Datasets](#downloading-datasets)
+    - [Available Datasets](#available-datasets)
+    - [Downloading Specific Datasets](#downloading-specific-datasets)
+- [Quick Testing](#quick-testing)
+  - [How to Run a Predefined Experiment](#how-to-run-a-predefined-experiment)
+  - [Automatic Plotting](#automatic-plotting)
+- [Parameters](#parameters)
+  - [How to Configure Parameters](#how-to-configure-parameters)
+  - [Available Parameters](#available-parameters)
+  - [CLI Usage Examples](#cli-usage-examples)
+  - [YAML Configuration Files](#yaml-configuration-files)
+- [Customization](#customization)
+  - [How to Add a Custom Dataset](#how-to-add-a-custom-dataset)
+  - [How to Add an Evaluation Scenario](#how-to-add-an-evaluation-scenario)
+  - [How to Add or Modify Preprocessing Functions](#how-to-add-or-modify-preprocessing-functions)
+  - [How to Add a Model](#how-to-add-a-model)
 
 ## Getting Started
 
@@ -444,7 +468,7 @@ MAYA is designed to be customizable, providing an interface that allows you to e
 - Datasets: Incorporate custom datasets for benchmarking.
 - Scenarios: Define entirely new evaluation scenarios tailored to your specific research needs.
 
-### How To Add a Custom Dataset
+### How to Add a Custom Dataset
 
 To integrate your own dataset into MAYA, simply follow these steps:
 
@@ -468,7 +492,7 @@ To integrate your own dataset into MAYA, simply follow these steps:
        "service": "social-net",
    },
 
-### How To Add an Evaluation Scenario
+### How to Add an Evaluation Scenario
 
 To define a new evaluation scenario, simply create a .yaml configuration file within the config/test/ directory. You can use any of the existing files in that folder as a helpful reference.
 
@@ -477,7 +501,7 @@ Each configuration file must adhere to the following structure:
 2. Parameters must be grouped according to their type (e.g., pre_split_params, split_params, post_split_params).
 3. The path to the preprocessing function needs to be specified using the format: filename.function_name. Where filename is a file inside the directory script/dataset/preprocessing/.
 
-### Adding or Modifying Preprocessing Functions
+### How to Add or Modify Preprocessing Functions
 
 If you need to add new preprocessing functions or modify existing ones, you have two options:
 
@@ -496,7 +520,7 @@ Example: If you create a new file named personalized_preprocessing.py containing
     ...
 ```
 
-### How To Add a Model
+### How to Add a Model
 If you desire to integrate a custom model into MAYA, follow these steps:
 
 1. **Subclass the Base Model**
