@@ -247,18 +247,17 @@ class Model:
         else:
             print("[I] - Checkpoint not specified. Starting training from scratch.")
 
-        for _ in range(5):
-            self.memory_watcher.reset()
-            self.memory_watcher.start()
-            train_start = time.time()
+        self.memory_watcher.reset()
+        self.memory_watcher.start()
+        train_start = time.time()
 
-            self.train()
-            self.finalize_checkpoint()
+        self.train()
+        self.finalize_checkpoint()
 
-            train_end = time.time()
-            time_delta = timedelta(seconds=train_end - train_start)
-            print(f"[T] - Training completed after: {time_delta}")
-            self.memory_watcher.stop()
+        train_end = time.time()
+        time_delta = timedelta(seconds=train_end - train_start)
+        print(f"[T] - Training completed after: {time_delta}")
+        self.memory_watcher.stop()
 
     def start_eval(self, checkpoint_name):
         print("[I] - Searching for a checkpoint for evaluation...")
