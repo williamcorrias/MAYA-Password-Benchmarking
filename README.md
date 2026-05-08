@@ -12,14 +12,20 @@ This repository contains the official implementation of the paper [*MAYA: Addres
 ## Citation
 
 ```
-@inproceedings{corrias2025maya,
-  title={MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark},
-  author={Corrias, William and De Gaspari, Fabio and Hitaj, Dorjan and Mancini, Luigi V},
-  booktitle={2026 IEEE Symposium on Security and Privacy (SP)},
-  year={2026},
-  organization={IEEE},
-  note={To appear},
-}
+@INPROCEEDINGS {,
+author = { Corrias, William and De Gaspari, Fabio and Hitaj, Dorjan and Mancini, Luigi V. },
+booktitle = { 2026 IEEE Symposium on Security and Privacy (SP) },
+title = {{ MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark }},
+year = {2026},
+volume = {},
+ISSN = {2375-1207},
+pages = {1503-1522},
+keywords = {password security;password guessing;password cracking;generative models;machine learning;deep learning;passwords},
+doi = {10.1109/SP63933.2026.00081},
+url = {https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00081},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =May}
 ```
 
 ## Overview
